@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ***** Header/Bannar Section Start ****** */
+.header-main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/edited.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+
+}
+
+.header-main h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.header-main p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.btn {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-image: linear-gradient(gold,red);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    scale: 0.1;
+}
+.btn:hover{
+    background-image: url("icons/medicine.svg");
+    color:black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    transform: scale(1.1);
+}
+
+/* ***** Header/Bannar Section end ****** */
+
+
+
+/* ***** ****** */
+
+/* ***** ****** */
+
+
+
+/* ***** ****** */
+
+/* ***** ****** */
+
+
+/* ***** ****** */
+
+
+/* ***** ****** */
+
+
+
+/* ***** ****** */
+
+
+/* ***** ****** */
