@@ -105,7 +105,7 @@
     color: red;
 }
 
-form {
+.div-2-1 {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -114,7 +114,7 @@ form {
     align-items: center;
 }
 
-form input {
+.div-2-1 input {
     border: none;
     width: 40%;
     height: auto;
@@ -126,7 +126,7 @@ form input {
 
 }
 
-form button {
+.div-2-1 button {
     width: 20%;
     height: auto;
     margin: 20px;
@@ -252,12 +252,64 @@ form button {
     padding: 0px 10px;
     
 }
-
 /* ***** Section 3 End ****** */
 
 
-/* ***** Section Start ****** */
-/* ***** Section End ****** */
+/* ***** Section 4 Start ****** */
+.sec-4{
+    width: 100vw;
+    height: auto;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+.sec-4 h1 {
+    font-size: 50px;
+    margin: 15px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+.sec-4 h3{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+
+}
+.sec-4-form{
+    width: 800px;
+    height: 150px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin: 0 auto;
+    align-content: space-around;
+    border-radius: 10px;
+}
+.sec-4-form input {
+    padding: 11px ;
+    border-radius: 10px 0px 0px 10px;
+    border: transparent;
+    outline: none;
+
+    
+
+}
+.btn2 {
+    padding: 10px 4px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bolder;
+    font-size: 15px;
+    background-image: linear-gradient(gold, red);
+    cursor: pointer;
+    
+}
+
+
+/* ***** Section 4 End ****** */
 
 /* ***** Section Start ****** */
 /* ***** Section End ****** */
